@@ -51,7 +51,7 @@ The user will also be able to log out via the 'LOGOUT' button, or the auth autom
 
 This is a sample image of the working application's functionality:
 
-![Screenshot 2023-05-19 at 16 01 25](https://github.com/angelinatech/PERN-stack-Todo-app/assets/130837613/facf8e0d-0f49-46ad-a807-5f7b6adb1f16)
+![Screenshot 2023-05-19 at 16 01 25](https://github.com/angelinatech/PERN-stack-To-do-memo-app/assets/130837613/a10864b6-464f-43cb-a376-cb002d76c3fa)
 
 ## Credits
 
