@@ -1,0 +1,15 @@
+.heart path{
+    fill:none;
+    stroke: #000;
+    stroke-miterlimit:10;
+    /* stroke-width:32px; */
+  }
+
+  .heart {
+    padding: 5px;
+    position: relative;
+    top: 20px;
+    z-index: 3;
+    transform: rotate(-15deg);
+    /* height: 30px; */
+  }

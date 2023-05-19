@@ -1,0 +1,69 @@
+/* ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* General *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~ */
+
+@font-face {
+  font-family: "adedisplay";
+  src: url("./fonts/ade-display-webfont.woff") format("woff");
+}
+
+:root {
+  --green: #36797a;
+  --purple: #6c7394;
+  --hotpink: #e6436f;
+  --darkpeach: #af5e5e;
+  --peachpink: #ffafa3;
+  --white: #ffffffef;
+  --box-shadow: #0000000d 0 6px 24px, #00000014 0 0 0 1px;
+  --text-shadow: 2px 8px 6px #00000033, 0px -5px 35px #ffffff4d;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: "adedisplay";
+  font-weight: 900;
+  position: relative;
+}
+
+body:before {
+  content: "";
+  background-image: url("./images/memories3.png");
+  opacity: 0.15;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100vw;
+  height:100vh;
+}
+
+.app {
+  background-color: #ffffffca;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+  padding: 10px;
+  width: 90vw;
+  min-height: 80vh;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+input {
+  margin: 11px 0;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1.5px solid #e6e8ec;
+}
+
+.app-main:before {
+  min-height: 100%;
+}
+.copyright{
+  position: relative;
+  bottom: -7vh;
+  padding-bottom: 5px;
+}

@@ -1,0 +1,69 @@
+/* ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* Modal *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~ */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+.modal {
+  display: fixed;
+  width: 500px;
+  background-image: linear-gradient(145deg, #ffbbaee0, #e69e93e0);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  z-index: 5;
+  text-shadow: var(--text-shadow);
+}
+
+.form-title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-title-container button {
+  border: none;
+  background-color: transparent;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal input {
+  color: var(--white);
+  background-color: var(--green);
+  border: none;
+  box-shadow: var(--box-shadow);
+  text-shadow: var(--text-shadow);
+}
+.inputTask {
+  color: var(--white) !important;
+  background-color: transparent !important;
+  border: var(--green) groove 3px !important;
+}
+.drop-down::placeholder {
+  color: var(--white)!important;
+  text-transform: uppercase !important;
+}
+.modal input::placeholder {
+  color: var(--white)!important;
+  box-shadow: none !important;
+  text-transform: uppercase !important;
+}
+.modal .create {
+  border: var(--green) groove 3px !important;
+}
+.Submit {
+  background: linear-gradient(145deg, #337574, #2b6261);
+  color: var(--white);
+  text-transform: uppercase;
+}

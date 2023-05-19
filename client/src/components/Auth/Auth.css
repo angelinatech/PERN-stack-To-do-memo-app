@@ -1,0 +1,46 @@
+
+/* ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* Auth/Login *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~ */
+
+.auth-container{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    margin:50px;
+    z-index:5;
+  }
+  .auth-container-box form input::placeholder{
+    text-transform: uppercase!important;
+  }
+  .auth-container-box{
+    width: 500px;
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: var(--box-shadow)
+  }
+  .auth-container-box form{
+    display:flex;
+    flex-direction:column;
+    height:350px;
+    padding:20px;
+    margin:5px;
+  }
+  .auth-options{
+    display:flex;
+  }
+  .auth-options button{
+    width:50%;
+    border:none;
+    padding:10px;
+    color: #23302f
+  }
+  .copyright{
+    font-size: 13px;
+    margin-top:10px;
+    color:#727272
+  }
+  .user-email {
+    float: right;
+    font-size: 13px;
+    margin-top:10px;
+    color:#727272
+  }

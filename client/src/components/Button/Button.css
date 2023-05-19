@@ -1,0 +1,107 @@
+/* ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* Buttonssssss *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~ */
+
+.button-container,
+.info-container {
+  display: flex;
+  align-items: center;
+}
+
+.button-container button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 12px;
+  z-index: 3;
+}
+
+button {
+  box-shadow: var(--box-shadow);
+  text-shadow: var(--text-shadow);
+  text-transform: uppercase;
+}
+
+.list-item .button-container {
+  position: absolute;
+  padding-bottom: 5px;
+  padding-top: 4px;
+  z-index: 2;
+  top: 2px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* EDIT *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~ */
+
+.edit-button {
+  border: 2.5px groove var(--hotpink);
+  color: var(--hotpink);
+  border-radius: 50px;
+  background-image: linear-gradient(145deg, #ffbbae, #e69e93);
+  width: 45%;
+}
+
+.edit-button:hover {
+  background-image: linear-gradient(145deg, #f64877, #cf3c64);
+  color: var(--white);
+}
+
+.edit-button:active {
+  color: var(--white);
+  background-image: linear-gradient(145deg, #f64877, #cf3c64);
+}
+
+/* ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* DELETE *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~ */
+
+.delete-button {
+  border: 2.5px groove var(--peachpink);
+  color: var(--white);
+  width: 45%;
+  background-image: linear-gradient(145deg, #f64877, #cf3c64);
+}
+.delete-button:hover {
+  background-image: linear-gradient(145deg, #ffbbae, #e69e93);
+}
+
+.delete-button:active {
+  background-image: linear-gradient(145deg, #ffbbae, #e69e93);
+  color: var(--white);
+}
+
+/* ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* ADD NEW *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~ */
+
+.create-button {
+  border: 1.5px groove var(--purple);
+  color: var(--purple);
+  background-color: transparent;
+}
+
+.create-button:hover {
+  background-image: linear-gradient(145deg, #8c94b8, #767c9b);
+  color: var(--white);
+}
+
+.create-button:active {
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+/* ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* SIGN OUT *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~ */
+
+.signout-button {
+  border: 1.5px groove var(--peachpink);
+  background-image: linear-gradient(145deg, #ffbbae, #e69e93);
+  color: var(--purple);
+}
+
+.signout-button:hover {
+  background-image: linear-gradient(145deg, #8c94b8, #767c9b);
+  border: 1.5px groove var(--darkpeach);
+  color: var(--white);
+}
+
+.signout-button:active {
+  border: 1.5px groove #af5151;
+  background-color: #af5151;
+  color: var(--white);
+}
